@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url = 'https://flipkartclon.herokuapp.com'
+const url = 'https://flipkarts.herokuapp.com'
 
 export const postUser = async (user) => {
     return await axios.post(`${url}/signup`,user)
